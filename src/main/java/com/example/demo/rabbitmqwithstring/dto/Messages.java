@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.example.demo.rabbitmqwithstring.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +10,5 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 public class Messages {
-    private String text;
-    private String sender;
-    private long timestamp;
+    private String message;
 }
